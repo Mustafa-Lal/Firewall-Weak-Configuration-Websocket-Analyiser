@@ -19,7 +19,7 @@ var hopHeaders = []string{
 }
 
 
-const REMOTE_RELAY_URL = "https://httpremoterelay-production.up.railway.app/relay" 
+const REMOTE_RELAY_URL = "https://yourremoterelayendpointforhttp" 
 
 type relayRequest struct {
 	Method     string              `json:"method"`
